@@ -1,0 +1,68 @@
+.achievement-container {
+  background: url('../images/bgImg.svg');
+  background-repeat: no-repeat;
+  background-color: #0d1224;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.achievement-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sih-container {
+  width: 370px;
+  height: 466px;
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 24px;
+  margin-right: 20px;
+  background-color: #e5e7eb27;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sih-desc {
+  display: flex;
+}
+.sih-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.sih-details {
+  padding-left: 10%;
+}
+
+.sih-head h3 {
+  font-size: 30px;
+}
+.sih-details div {
+  display: flex;
+  padding: 4px;
+}
+
+.sih-head p {
+  font-weight: bold;
+} 
+.sih-container {
+  width: 500px;
+  height: 450px;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .ahievement-container h2 {
+    margin-left: 25px;
+  }
+
+  .sih-container {
+    margin: 20px;
+  }
+  .sih-container {
+    width: 80%;
+  }
+}

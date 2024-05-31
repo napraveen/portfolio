@@ -1,0 +1,62 @@
+.contact-page {
+  background: url('../images/bgImg.svg');
+  background-repeat: no-repeat;
+  background-color: #0d1224;
+  min-height: 100vh;
+}
+.contact-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.my-social-profiles {
+  height: auto;
+  width: 65vw;
+  margin-left: 20px;
+}
+
+.social-profile-divs {
+  width: 60vw;
+  gap: 40px;
+  height: auto;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social-profile-linkedin,
+.social-profile-email,
+.social-profile-github {
+  height: 150px;
+  width: 140px;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 1px solid rgb(208, 208, 208);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.social-profile-linkedin:hover,
+.social-profile-github:hover,
+.social-profile-email:hover {
+  background-color: rgba(227, 246, 255, 0.227);
+  cursor: var(--cursorPointer);
+}
+.social-profile-linkedin:hover p,
+.social-profile-github:hover p,
+.social-profile-email:hover p {
+  color: white;
+}
+.social-profile-linkedin-logo,
+.social-profile-gmail-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  cursor: var(--cursorPointer);
+}

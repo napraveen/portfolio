@@ -1,0 +1,77 @@
+.project-page {
+  background: url('../images/bgImg.svg');
+  background-repeat: no-repeat;
+  background-color: #0d1224;
+  cursor: var(--cursorDefault);
+  min-height: 100vh;
+}
+.project-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.project-body h2 {
+  width: 340px;
+}
+
+.all-projects {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.all-projects > div {
+  width: 300px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(239, 239, 239, 0.333);
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 380px;
+  background-color: rgb(18, 23, 42);
+  /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+.all-projects div p {
+  width: 250px;
+  color: rgba(255, 255, 255, 0.725);
+}
+
+.project-container img {
+  margin-bottom: 10px;
+}
+
+.project-container h4 {
+  margin-bottom: 10px;
+}
+
+.project-container h4 a {
+  text-decoration: none;
+}
+
+.project-container h4 a:hover {
+  color: rgb(195, 127, 254);
+  transition: 0.3s ease-in-out;
+  cursor: var(--cursorPointer);
+}
+
+.project-container:hover {
+  border: 1px solid rgb(218, 176, 255);
+}
+
+.project-logos {
+  width: 100%;
+  height: 200px;
+}
+
+.project-github-img {
+  cursor: var(--cursorPointer);
+}
+
+
+.project-logos {
+  cursor: var(--cursorPointer);
+}
